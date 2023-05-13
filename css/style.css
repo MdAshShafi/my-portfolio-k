@@ -12,9 +12,18 @@ h1
 {
     color: orange;
 }
-section
+.about_me
 {
+    text-align: center;
+}
+.about_me .about_txt
+{
+    padding: 20%;
+    display: inline;
+}
+dl{
     display: flex;
+    text-align: center;
 }
 .half-width
 {
@@ -27,6 +36,7 @@ section
 }
 .bg-ban
 {
+    display: flex;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -45,4 +55,21 @@ section
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+}
+.about_spc
+{
+    display: flex;
+    text-align: center;
+}
+.about_pad
+{
+    padding: 3%;
+    margin: 20px;
+    width: 20%;
+    box-shadow: 10px 10px 30px 5px grey;
+    border-left: blue;
+}
+
+footer p{
+    text-align: center;
 }
